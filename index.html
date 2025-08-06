@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-<!---------- TO-DO: ADD META TAG AND NAME HERE ---------->
+<!-- TO-DO: Add meta tag and name here -->
 	<meta name="author" content="Patricia Lucas">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Form Activity Solution File</title>
-<!---------- TO-DO: ADD LINK TO CSS HERE ---------->
+<!-- TO-DO: Add link to CSS here -->
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -29,7 +29,7 @@
 			<h2>Coding Semantic and Accessible Forms!</h2>
 			<p>Today we'll be focusing on coding a form that is accessible and semantic, and we'll also briefly discuss skip links for your website. Forms can be a source of frustration for users, whether they specifically need help with accessing your website or if they just prefer that your forms be easy to use and submit. Follow along as we code this in class, and please ask questions as they arise. Let's make a form!</p>
 
-<!---------- TO-DO: ADD FORM CODE HERE DURING CLASS, FOLLOW ALONG TO COMPLETE ---------->
+<!-- TO-DO: Add form code here during class, follow along to complete -->
 	<form action="https://wp.zybooks.com/form-viewer.php" method="post">
 		<!-- First Name -->
 		<label for="f-name">First Name <span class="required">*</span></label>
@@ -48,12 +48,13 @@
 			<legend>Preferred Contact Method <span class="required">*</span></legend>
 			<input type="radio" id="pcm-email" name="pcm" value="email" required aria-required="true">
 			<label for="pcm-email">Email</label>
-			<input type="radio" id="pcm-phone" name="pcm" value="phone" required aria-required="true"> 
+
+			<input type="radio" id="pcm-phone" name="pcm" value="phone" required aria-required="true">
 			<label for="pcm-phone">Phone</label>
 		</fieldset>
 		<!-- States -->
 		<label for="my-state">State <span class="required">*</span></label>
-			<select name="my-state" id="my-state">
+			<select name="my-state" id="my-state" aria-required="true">
 				<option value="">Select Your State</option>
 				<option value="al">AL</option>
                 <option value="ak">AK</option>
