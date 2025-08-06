@@ -180,10 +180,11 @@ form{
 	padding:  0.75em;
 	border: 2px solid #777;
 	border-radius: 0.2em;
+	display: block;
 }
 
 input, label, textarea{
-	display: inline-block;
+	display: block;
 	width: calc(100% - 2em);
 }
 
@@ -199,6 +200,7 @@ label{
 
 .required{
 	color: #c71819;
+	display: inline-block;
 }
 
 input{
