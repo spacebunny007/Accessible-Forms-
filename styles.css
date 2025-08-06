@@ -183,7 +183,7 @@ form{
 }
 
 input, label, textarea{
-	display: block;
+	display: inline-block;
 	width: calc(100% - 2em);
 }
 
